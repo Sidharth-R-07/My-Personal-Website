@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidharth</title>
+    <link rel="icon" href="images/user.JPG" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8700f39087.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+
+        <div class="container">
+            <nav>
+                <p class="head-title"><span>S</span>idharth R</p>
+                <!-- <img src="images/logo.jpg" class="logo"> -->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li> 
+                    <li><a href="#about">About</a></li>
+                     <li><a href="#services">Services</a></li>
+                    <li><a href="#my-work">My Works</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p><img src="images/flutter.png" alt="" class="flutter-logo">  Flutter Developer</p>
+                <h1>Hi, I'm <span>Sidharth</span><br>from Kerala</h1>
+            </div>
+        </div>
+    </div>
+<!---------------------------about------------------------------------>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.JPG" alt="">
+                </div>
+                <div class="about-col-2">
+                 <h1 class="sub-title">About Me</h1>
+                
+                <p>I'm self-taught and self-motivated Flutter developer, I have developed a strong foundation in mobile app development and have gained hands-on experience with the Flutter framework.
+                    With a passion for learning and a natural curiosity for new technologies, I am constantly expanding my knowledge and honing my skills.I have a proven ability to work independently, and have successfully completed multiple personal projects using Flutter.</p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links "onclick="opentab('projects')">Projects</p>
+                <p class="tab-links "onclick="opentab('opentab')">Achievement</p>
+            </div>
+            <div class="tab-contants active-tab" id="skills" >
+                <ul>
+                    <li><span>Flutter</span>
+                   <br> Dart | Firebase | Local Database | Provider </li>
+                    <li><span>Html</span> 
+                    <br> Css | JavaScript </li>
+                    <li><span>C</span> <br> Loop | Array | Functions </li>
+                    <li><span>Git</span> <br> Version Control </li>
+                </ul>
+            </div>
+            <div class="tab-contants" id="projects">
+                <ul>
+                    <li><span>Calculator</span> <br> Developed with Html,Css and JavaScript </li>
+                    <li><span>Quiz App</span><br> Developed with Flutter </li>
+                    <li><span>Chat App</span> <br> Developed with Flutter and Firebase</li>
+                    <li><span>Shop App</span><br> Developed with Flutter ,Api and Provider</li>
+                </ul>
+            </div>
+            <div class="tab-contants" id="opentab">
+                <ul>
+                    <li>   <a href="images/100KCC31358.pdf" download=""><span>100K Coding Challenge &nbsp; &nbsp;</span><i class="fa-regular fa-file-pdf fa-fade"></i></a><br> Conducted by Cross Roads and Packapeer Academy</li>
+                    <li><span>Computer Teachers Training Program(CTTP)</span><br>Computer Basics | Hardware & Networking Essentials | Vb.Net <br> Manual Accounting & Tally | Adode Photoshop,Indesign and Illustrator  </li>
+                    <li><span>Asap</span><br>Front Office Associate </li>
+                   
+                </ul>
+            </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------Services--------------------------- -->
+
+
+
+    <div id="services">
+
+        <div class="container">
+            <h1 class="sub-title">Skills</h1>
+            <div class="services-list">
+
+                <div>
+    <i class="fa-solid fa-code"></i>
+    <h2>Flutter</h2>
+    <p>
+        <li>Proficient in building mobile applications using Flutter framework</li> 
+        <li>Experience in developing cross-platform mobile apps for iOS and Android using Flutter</li>
+        <li>Familiarity with Dart programming language and its syntax</li>
+        <li>Understanding of the Flutter widget hierarchy and the ability to customize and create new widgets</li>
+        <li>Familiarity with state management in Flutter using packages Provider</li>
+        <li>Experience with Hive for local database storage in Flutter apps</li>
+        <li>Experience with Firebase for cloud-based data storage and authentication in Flutter apps</li>
+        <li>Experience with integrating APIs in Flutter apps for retrieving and displaying data</li>
+        <li>Understanding of RESTful APIs and HTTP requests in Flutter</li>
+      
+    </p>
+</div>
+<div>
+    <i class="fa-brands fa-html5"></i>
+    <h2>Html</h2>
+    <p>
+        <li>Proficient in HTML coding, including the use of HTML tags to create and format web pages</li>
+        <li>Experience in using CSS to style web pages and create responsive designs</li>
+        <li>Familiarity with JavaScript and ability to write basic scripts to add interactivity and functionality to web pages</li>
+        <li>Understanding of web development frameworks such as Bootstrap and jQuery</li>
+          
+    </p>
+</div>
+<div>
+    <i class="fa-brands fa-github"></i>
+    <h2>Git</h2>
+    <p>
+   <li>Experience using Git for version control in software development projects.</li>
+   <li>Familiarity with common Git commands, such as pull, push, commit, and merge.</li>
+   <li>Knowledge of Git branching and merging strategies.</li>       
+    </p>
+</div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+<!-- -------------------------------------My Works--------------------------- -->
+<div id="my-work">
+    <div class="container">
+        <h1 class="sub-title">My Works</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/calculator.jpg" >
+                <div class="layer">
+                    <h3>Calculator</h3>
+                    <p>This is a simple and easy to use Calculator.Developed with Html,Css and JavaScript.</p>
+                    <a href="https://github.com/Sidharth-R-07/calculator"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/quiz.jpg" >
+                <div class="layer">
+                    <h3>Quiz App</h3>
+                    <p>This is a simple and Model Quiz App.Developed with Flutter.</p>
+                    <a href="https://github.com/Sidharth-R-07/Quiz-App"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/shop app.jpg" >
+                <div class="layer">
+                    <h3>Shop App</h3>
+                    <p>This is e-commerce app like amazone.In my app includes features such as a product catalog, shopping cart , Manage orders,add to favorite,add product and edite user products.</p>
+                    <a href="https://github.com/Sidharth-R-07/Shap-App"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" >
+                <div class="layer">
+                    <h3>Chat App</h3>
+                    <p>This is a simple Chat App.You can send message to other users.Developed with Fluttur,Firebase and Provider</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                
+            </div>
+            <!-- <div class="work">
+                <img src="images/work-3.png" >
+                <div class="layer">
+                    <h3>Chat App</h3>
+                    <p>This is a simple and easy to use Calculator.Developed with Html,Css and JavaScript.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                
+            </div> -->
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- 
+    <a href="#" class="btn">See more</a> -->
+
+
+
+
+<!--  ----------------------contact----------------------------- -->
+
+<div id="contact">
+    <div class="container">
+
+        <div class="row">
+            <div class="contact-left">
+
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-envelope"></i>sidhuram365@gmail.com</p>
+                <P><i class="fa-solid fa-mobile-screen-button"></i>9809183179</P>
+                <p><i class="fa-brands fa-github"></i><a href="https://github.com/Sidharth-R-07?tab=overview&from=2023-03-01&to=2023-03-27">Sidharth-R-07</a></p>
+                <p><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/sidharth-r-720a6926b/">SIDHARTH R</a></p>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet" action="" id="contact-form">
+                    <input type="text" name="Name" placeholder="Your Name">
+                    <input type="email" name="Email" placeholder="Your Email">
+                    <textarea name="Message"  rows="5" placeholder="Enter message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+
+                <span id="msg"></span>
+            </div>
+
+        </div>
+     
+    </div>
+    <div class="copyright">
+        <P>copy right © Sidharth.</P>
+    </div>
+</div>
+    <script>
+
+
+var tablinks=document.getElementsByClassName('tab-links');
+var tabcontants=document.getElementsByClassName('tab-contants');
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link")
+    }
+    for(tabcontant of tabcontants){
+        tabcontant.classList.remove("active-tab")
+    }
+
+    event.currentTarget.classList.add("active-link")
+    document.getElementById(tabname).classList.add("active-tab")
+}
+    </script>
+    <script>
+        var sidemen=document.getElementById('sidemenu');
+
+        function openmenu(){
+            sidemen.style.right="0";
+        }
+        function closemenu(){
+            sidemen.style.right="-200px";
+        }
+    </script>
+    
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw9ilvFt56hwQl-68F2TdPmmYQoVx9HaTM7rKvMcZyApv-e698Wc3eMtDmMP5_PiCD1/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            document.getElementById("contact-form").reset()
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){msg.innerHTML=''
+            },5000)
+      
+            
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
