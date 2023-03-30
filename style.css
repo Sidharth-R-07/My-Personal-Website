@@ -25,13 +25,13 @@ body{
 }
 
 .head-title{
-    font-size: 10vh;
+    font-size: 42px;
     margin-left: 15px;
     font-weight: 600;
 }
 
 .head-title span{
-    font-size: 15vh;
+    font-size: 56px;
     font-weight: 700;
     color: #1aa260;
 }
@@ -402,6 +402,14 @@ nav .fa-solid{
 @media only screen and (max-width:600px){
     #header{
         background-image: url(images/phone-background.JPG);
+    }
+    .head-title{
+        font-size: 36px;
+        
+    }
+    .head-title span{
+        font-size: 45px;
+        
     }
     .header-text{
         margin-top: 330px;
